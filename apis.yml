@@ -1,7 +1,24 @@
 aid: walzay-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/walzay-inc.png
 name: Walzay Inc.
-description: Walzay Inc. is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Walzay Inc. is a global tech-talent recruitment marketplace, founded in
+  2019 by Humaira Khan and headquartered in New York City. The platform connects companies
+  with vetted remote and in-office software, engineering, and sales professionals —
+  largely sourced from the Middle East and other emerging markets — and offers white-glove
+  recruiting alongside a self-serve candidate marketplace. Walzay is backed by 500
+  Global and the Sanabil 500 MENA Seed Accelerator. No public API or developer surface
+  was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/walzay-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Recruitment
+- Talent
+- Hiring
+- Marketplace
+- Remote Work
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/walzay-inc-domain-security.yml
 - type: Website
   url: https://walzay.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/walzay
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
