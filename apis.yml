@@ -31,6 +31,9 @@ description: Walzay Inc. is a global tech-talent recruitment marketplace, founde
   Global and the Sanabil 500 MENA Seed Accelerator. No public API or developer surface
   was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/walzay-inc/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "No public API or developer surface was found during enrichment."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
