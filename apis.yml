@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/walzay-inc.png
-name: Walzay Inc.
+name: Walzay
 description: Walzay Inc. is a global tech-talent recruitment marketplace, founded in
   2019 by Humaira Khan and headquartered in New York City. The platform connects companies
   with vetted remote and in-office software, engineering, and sales professionals —
@@ -44,6 +44,13 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
+- Company
+- Recruiting
+- Talent
+- Hiring
+- Marketplace
+- Remote Work
+tags_raw:
 - Company
 - Recruitment
 - Talent
@@ -68,3 +75,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Walzay Inc.
